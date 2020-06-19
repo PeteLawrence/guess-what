@@ -32,7 +32,7 @@ class ConditionSet extends React.Component {
       <Row className="my-3">
         { conditions.map((condition) => {
           return (
-            <Col md={2} key={ condition.name }>
+            <Col md={2} sm={4} xs={6} key={ condition.name }>
               <Condition name={ condition.name } markers={ condition.markers } showCondition={ this.props.showConditions } />
             </Col>
           )
