@@ -3,8 +3,15 @@ import Condition from './Condition.js'
 import { Row, Col, CardDeck, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import Marker from './Marker'
 
 class ConditionSet extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.myCondition = this.pickRandomCondition();
+  }
 
   /**
    * Renders the markup for the conditions
@@ -43,6 +50,28 @@ class ConditionSet extends React.Component {
     );
   }
 
+
+  pickRandomCondition() {
+    let conditions = this.props.conditionSet.conditions;
+
+    return conditions[Math.floor(Math.random(1) * conditions.length)];
+  }
+
+
+  /**
+   * Renders the markers for the condition
+   * @return {[type]} [description]
+   */
+  renderMarkersList(markers) {
+    return (
+      <ul>
+        { markers.map(marker => {
+          return (<Marker name={ marker.name } note={ marker.note } color={ marker.color } />);
+        })}
+      </ul>
+    );
+  }
+
   /**
    * Renders the ConditionSet component
    * @return {[type]} [description]
@@ -51,6 +80,17 @@ class ConditionSet extends React.Component {
     return (
       <>
         <h1>{ this.props.conditionSet.name }</h1>
+        { this.props.showMyCard ?
+          <Card>
+            <Card.Body>
+              <Card.Title>{ this.myCondition.name }</Card.Title>
+
+              { this.renderMarkersList(this.myCondition.markers ) }
+            </Card.Body>
+          </Card>
+          : ''
+        }
+
         { this.renderConditions() }
       </>
     );

@@ -1,6 +1,6 @@
 import React from 'react';
 import ConditionSet from './ConditionSet.js'
-import { Navbar, Container, Button, ButtonGroup } from 'react-bootstrap'
+import { Navbar, Container, Button, ButtonGroup, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -11,6 +11,7 @@ class App extends React.Component {
 
     this.state = {
       showConditions: false,
+      showMyCard: false,
       conditionSet: require('./conditions/bloodcancers.js').default
     };
   }
@@ -23,6 +24,13 @@ class App extends React.Component {
     this.setState({ showConditions: !this.state.showConditions });
   }
 
+  /**
+   * Toggles the names of the different conditions
+   * @return void
+   */
+  toggleMyCard() {
+    this.setState({ showMyCard: !this.state.showMyCard });
+  }
 
   /**
    * Shuffles the conditions up
@@ -42,16 +50,22 @@ class App extends React.Component {
    * @return {[type]} [description]
    */
   render() {
+
+    let condition = this.myCondition;
+    let display = this.state.showMyCard ? 'hidden' : 'block';
+
     return (
         <Container>
           <Navbar variant="dark" className='navbar-top'>
             <Navbar.Brand href="#home">Guess W.H.O Haematological Malignancies</Navbar.Brand>
           </Navbar>
 
-          <ConditionSet conditionSet={ this.state.conditionSet } showConditions={ this.state.showConditions } />
+
+          <ConditionSet conditionSet={ this.state.conditionSet } showConditions={ this.state.showConditions } showMyCard={ this.state.showMyCard } />
 
           <ButtonGroup>
             <Button variant="secondary" onClick={ () => this.toggleConditions() }>Toggle Names</Button>
+            <Button variant="secondary" onClick={ () => this.toggleMyCard() }>Toggle My Card</Button>
             <Button variant="secondary" onClick={ () => this.shuffleConditions() }>Shuffle</Button>
           </ButtonGroup>
         </Container>
