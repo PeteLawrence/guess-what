@@ -270,7 +270,7 @@ export default {
         { name: 'CD19' },
         { name: 'CD20' },
         { name: 'CD22', note: 'weak' },
-        { name: 'SmIg', note: 'strong', color: 'gray' },
+        { name: 'SmIg', note: 'strong',  color: 'dodgerblue' },
         { name: 'CD10', color: 'gray' },
         { name: 'CD43', color: 'gray' },
         { name: 'CD81',  note: 'strong', color: 'gray' },
