@@ -196,7 +196,7 @@ export default {
         { name: 'CD34', color: 'hotpink' },
         { name: 'CD19' },
         { name: 'CD22' },
-        { name: 'CD79a' },
+        { name: 'CD79a', color: 'dodgerblue' },
         { name: 'CD10', note: '+/-', color: 'dodgerblue' },
         { name: 'Often CD20 -ve' },
       ]
