@@ -27,7 +27,7 @@ class Condition extends React.Component {
     return (
       <ul>
         { this.props.markers.map(marker => {
-          return (<Marker name={ marker.name } note={ marker.note } color={ marker.color } />);
+          return (<Marker name={ marker.name } note={ marker.note } color={ marker.color } negative={ marker.negative } />);
         })}
       </ul>
     );

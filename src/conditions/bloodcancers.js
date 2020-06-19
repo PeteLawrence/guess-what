@@ -52,7 +52,7 @@ export default {
         { name: 'SmIg', color: 'dodgerblue' },
         { name: 'FMC7', color: 'dodgerblue'},
         { name: 'CD5', note: 'strong', color: 'green' },
-        { name: 'CD23', note: '-ve', color: '#c66' },
+        { name: 'CD23', negative: true, color: 'red' },
       ]
     },
     {
@@ -65,7 +65,7 @@ export default {
         { name: 'SmIg', color: 'dodgerblue' },
         { name: 'FMC7', color: 'dodgerblue'},
         { name: 'CD10', color: 'dodgerblue'},
-        { name: 'CD43', note: '-ve', color: '#c66' },
+        { name: 'CD43', negative: true, color: 'red' },
       ]
     },
     {
@@ -122,7 +122,7 @@ export default {
         { name: 'CD200', color: 'dodgerblue'},
         { name: 'CD10', note: '+/-', color: 'dodgerblue'},
         { name: 'CD20', note: '+/-'},
-        { name: 'CD19', note: '-ve', color: '#c66' },
+        { name: 'CD19', negative: true, color: 'red' },
       ]
     },
     {
@@ -133,7 +133,7 @@ export default {
         { name: 'CD200', color: 'dodgerblue'},
         { name: 'CD10', note: '+/-', color: 'dodgerblue'},
         { name: 'CD20' },
-        { name: 'CD56', note: '-ve', color: '#c66' },
+        { name: 'CD56', negative: true, color: 'red' },
       ]
     },
     {
@@ -173,7 +173,7 @@ export default {
         { name: 'CD11c', note: '+/-', color: 'dodgerblue' },
         { name: 'CD103', color: 'dodgerblue' },
         { name: 'CD200', color: 'dodgerblue'},
-        { name: 'CD25', note: '-ve', color: 'red'},
+        { name: 'CD25', negative: true, color: 'red'},
       ]
     },
     {
@@ -261,7 +261,7 @@ export default {
         { name: 'CD9', note: 'strong', color: 'teal' },
         { name: 'CD15', color: 'teal' },
         { name: 'CD64', color: 'teal' },
-        { name: 'CD34/HLA-DR',  note: '-ve', color: 'red' },
+        { name: 'CD34/HLA-DR',  negative: true, color: 'red' },
       ]
     },
     {
@@ -293,7 +293,7 @@ export default {
         { name: 'CD4', color: 'green' },
         { name: 'CD5', color: 'green' },
         { name: 'CD25', color: 'dodgerblue' },
-        { name: 'CD7', note: '-ve'  }
+        { name: 'CD7', negative: true, color: 'red'  }
       ]
     },
   ]
