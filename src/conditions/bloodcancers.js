@@ -207,9 +207,9 @@ export default {
         { name: 'CD13', color: 'hotpink' },
         { name: 'CD33', color: 'hotpink' },
         { name: 'CD34', color: 'hotpink' },
-        { name: 'CD41', color: 'gray' },
-        { name: 'CD61', color: 'gray' },
-        { name: 'CD42b', color: 'gray' },
+        { name: 'CD41', color: 'teal' },
+        { name: 'CD61', color: 'teal' },
+        { name: 'CD42b', color: 'teal' },
       ]
     },
     {
@@ -219,9 +219,9 @@ export default {
         { name: 'CD33', color: 'hotpink' },
         { name: 'CD34', color: 'hotpink' },
         { name: 'CD117', color: 'hotpink' },
-        { name: 'CD36', color: 'gray' },
-        { name: 'CD71', color: 'gray' },
-        { name: 'CD235a', color: 'gray' },
+        { name: 'CD36', color: 'teal' },
+        { name: 'CD71', color: 'teal' },
+        { name: 'CD235a', color: 'teal' },
       ]
     },
     {
@@ -232,13 +232,13 @@ export default {
         { name: 'CD34', color: 'hotpink' },
         { name: 'CD117', color: 'hotpink' },
         { name: 'CD4', note: 'weak', color: '#6c6' },
-        { name: 'CD11c', color: 'gray' },
-        { name: 'CD11b', color: 'gray' },
-        { name: 'CD14', note: 'variable', color: 'gray' },
-        { name: 'CD15', color: 'gray' },
-        { name: 'CD36', color: 'gray' },
-        { name: 'CD64', color: 'gray' },
-        { name: 'CD65', color: 'gray' },
+        { name: 'CD11c', color: 'teal' },
+        { name: 'CD11b', color: 'teal' },
+        { name: 'CD14', note: 'variable', color: 'teal' },
+        { name: 'CD15', color: 'teal' },
+        { name: 'CD36', color: 'teal' },
+        { name: 'CD64', color: 'teal' },
+        { name: 'CD65', color: 'teal' },
       ]
     },
     {
@@ -258,9 +258,9 @@ export default {
         { name: 'CD13', color: 'hotpink' },
         { name: 'CD33', note: 'strong homogenous', color: 'hotpink' },
         { name: 'CD117', color: 'hotpink' },
-        { name: 'CD9', note: 'strong', color: 'gray' },
-        { name: 'CD15', color: 'gray' },
-        { name: 'CD64', color: 'gray' },
+        { name: 'CD9', note: 'strong', color: 'teal' },
+        { name: 'CD15', color: 'teal' },
+        { name: 'CD64', color: 'teal' },
         { name: 'CD34/HLA-DR',  note: '-ve', color: 'red' },
       ]
     },
@@ -271,9 +271,9 @@ export default {
         { name: 'CD20' },
         { name: 'CD22', note: 'weak' },
         { name: 'SmIg', note: 'strong',  color: 'dodgerblue' },
-        { name: 'CD10', color: 'gray' },
-        { name: 'CD43', color: 'gray' },
-        { name: 'CD81',  note: 'strong', color: 'gray' },
+        { name: 'CD10', color: 'teal' },
+        { name: 'CD43', color: 'teal' },
+        { name: 'CD81',  note: 'strong', color: 'teal' },
       ]
     },
     {
