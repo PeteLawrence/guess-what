@@ -1,5 +1,5 @@
 export default {
-  name: 'Blood Cancers',
+  name: 'Haematological Malignancies',
   conditions: [
     {
       name: 'CLL',

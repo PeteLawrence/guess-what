@@ -45,7 +45,7 @@ class App extends React.Component {
     return (
         <Container>
           <Navbar variant="dark" className='navbar-top'>
-            <Navbar.Brand href="#home">Guess What</Navbar.Brand>
+            <Navbar.Brand href="#home">Guess W.H.O Haematological Malignancies</Navbar.Brand>
           </Navbar>
 
           <ConditionSet conditionSet={ this.state.conditionSet } showConditions={ this.state.showConditions } />

@@ -8,7 +8,7 @@ class Marker extends React.Component {
    */
   render() {
     return (
-      <li style={ {color: this.props.color} }>{ this.props.name } { this.props.note ?  <small>{ this.props.note }</small> : <></>}</li>
+      <li className="marker" style={ {color: this.props.color} }>{ this.props.name } { this.props.note ?  <small>{ this.props.note }</small> : <></>}</li>
     );
   }
 }

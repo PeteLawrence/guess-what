@@ -1,6 +1,6 @@
 import React from 'react';
 import Condition from './Condition.js'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, CardDeck, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
@@ -12,11 +12,15 @@ class ConditionSet extends React.Component {
    */
   renderConditions() {
     let rows = [];
-    let colCount = 6;
+    let colCount = 8;
 
     for (let i = 0; i < this.props.conditionSet.conditions.length / colCount; i++) {
       let a = this.props.conditionSet.conditions.slice(i * colCount, (i+1) * colCount);
-      rows.push(this.renderRow(a));
+      rows.push(
+        <div className="my-2">
+          { this.renderRow(a) }
+        </div>
+      );
     }
 
     return rows;
@@ -29,15 +33,13 @@ class ConditionSet extends React.Component {
    */
   renderRow(conditions) {
     return (
-      <Row className="my-3">
-        { conditions.map((condition) => {
-          return (
-            <Col md={2} sm={4} xs={6} key={ condition.name }>
-              <Condition name={ condition.name } markers={ condition.markers } showCondition={ this.props.showConditions } />
-            </Col>
-          )
-        })}
-      </Row>
+        <CardDeck>
+          { conditions.map((condition) => {
+            return (
+                <Condition name={ condition.name } markers={ condition.markers } showCondition={ this.props.showConditions } />
+            )
+          })}
+        </CardDeck>
     );
   }
 
