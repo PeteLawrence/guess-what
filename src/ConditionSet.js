@@ -66,7 +66,7 @@ class ConditionSet extends React.Component {
     return (
       <ul>
         { markers.map(marker => {
-          return (<Marker name={ marker.name } note={ marker.note } color={ marker.color } />);
+          return (<Marker name={ marker.name } note={ marker.note } color={ marker.color }  negative={ marker.negative } />);
         })}
       </ul>
     );
