@@ -137,7 +137,7 @@ export default {
       ]
     },
     {
-      name: 'Sezary Syndrome',
+      name: 'Sézary Syndrome',
       markers: [
         { name: 'CD2', color: 'green' },
         { name: 'CD3', color: 'green' },
@@ -202,7 +202,7 @@ export default {
       ]
     },
     {
-      name: 'AML - Active megakaryoblastic leukaemia',
+      name: 'AML - Acute megakaryoblastic leukaemia',
       markers: [
         { name: 'CD13', color: 'hotpink' },
         { name: 'CD33', color: 'hotpink' },

@@ -13,7 +13,7 @@ class Menu extends React.Component {
       <Navbar variant="dark" className='navbar-top'>
         <LinkContainer to="/">
           <Navbar.Brand>
-            Guess W.H.O Haematological Malignancies
+            Guess W.H.O. Haematological Malignancies
           </Navbar.Brand>
         </LinkContainer>
 
