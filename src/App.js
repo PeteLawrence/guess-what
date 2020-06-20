@@ -5,6 +5,7 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
+import Analytics from 'react-router-ga';
 
 import AboutPage from './pages/AboutPage'
 import GamePage from './pages/GamePage'
@@ -23,18 +24,19 @@ class App extends React.Component {
     return (
       <Container>
         <Router>
-          <Menu />
+          <Analytics id="UA-170115765-1" debug>
+            <Menu />
 
-          <Switch>
-            <Route exact path="/">
-              <GamePage />
-            </Route>
+            <Switch>
+              <Route exact path="/">
+                <GamePage />
+              </Route>
 
-            <Route path="/about">
-              <AboutPage />
-            </Route>
-          </Switch>
-
+              <Route path="/about">
+                <AboutPage />
+              </Route>
+            </Switch>
+            </Analytics>
         </Router>
       </Container>
     );
