@@ -11,7 +11,7 @@ class AboutPage extends React.Component {
       <>
         <h1>About</h1>
 
-        <p>Thank you to Pete Lawrence, Joel Cunningham, David Bloxham and Angela Collins for helping me create this revision tool!</p>
+        <p>Thank you to Pete Lawrence, Joel Cunningham, Dave Bloxham and Angela Collins for helping me create this revision tool!</p>
 
         <p>Wrapping your head around the clinical applications of flow cytometry can take some time. Remembering surface markers and small differences between conditions can be even harder. </p>
 
