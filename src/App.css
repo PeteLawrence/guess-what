@@ -2,6 +2,14 @@
     background-color: purple;
 }
 
+.navbar-top .navbar-brand a {
+    color: #fff;
+}
+
+.navbar-top .nav-item {
+    color: #fff;
+}
+
 .card ul {
     list-style: none;
     padding-left: 0;

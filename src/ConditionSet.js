@@ -1,6 +1,6 @@
 import React from 'react';
 import Condition from './Condition.js'
-import { Row, Col, CardDeck, Card } from 'react-bootstrap'
+import { CardDeck, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Marker from './Marker'
