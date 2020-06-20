@@ -43,7 +43,7 @@ class Condition extends React.Component {
    */
   render() {
     return (
-      <Card onClick={ () => { this.toggle() } }  className={ this.state.active ? 'active col-sm-6' : 'hidden'} >
+      <Card onClick={ () => { this.toggle() } }  className={ this.state.active ? 'active' : 'hidden'} >
         <Card.Body>
           <Card.Title>{ this.props.showCondition ? this.props.name : '...' }</Card.Title>
           { this.renderMarkersList() }
