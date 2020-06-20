@@ -1,5 +1,5 @@
 .navbar-top {
-    background-color: purple;
+    background-color: rgb(58, 25,105);
 }
 
 .navbar-top .navbar-brand a {
@@ -18,6 +18,10 @@
 
 .card {
     cursor: pointer;
+}
+
+.card.my-card {
+    background-color: lavender;
 }
 
 .card-body {

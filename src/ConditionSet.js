@@ -82,7 +82,7 @@ class ConditionSet extends React.Component {
         <h1>{ this.props.conditionSet.name }</h1>
         { this.props.showMyCard ?
           <div className="d-flex justify-content-center">
-            <Card>
+            <Card className="my-card">
               <Card.Body>
                 <Card.Title>{ this.myCondition.name }</Card.Title>
 
