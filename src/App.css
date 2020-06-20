@@ -8,6 +8,7 @@
 
 .navbar-top .nav-item {
     color: #fff;
+    font-size: 20px;
 }
 
 .card ul {
@@ -18,6 +19,7 @@
 
 .card {
     cursor: pointer;
+    margin: 0 5px !important;
 }
 
 .card.my-card {
@@ -42,9 +44,4 @@
 
 li.marker {
     font-size: 0.85em;
-}
-
-
-.card {
-    margin: 0 5px !important;
 }

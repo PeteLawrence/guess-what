@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap'
+import { Navbar, NavItem, Nav } from 'react-bootstrap'
 import { LinkContainer } from "react-router-bootstrap";
 
 class Menu extends React.Component {
@@ -13,10 +13,23 @@ class Menu extends React.Component {
       <Navbar variant="dark" className='navbar-top'>
         <LinkContainer to="/">
           <Navbar.Brand>
-            Guess W.H.O. Haematological Malignancies
+            <span>Guess W.H.O.</span><span className="d-none d-md-inline">Haematological Malignancies</span>
           </Navbar.Brand>
         </LinkContainer>
 
+        <Nav className="ml-5">
+            <Nav.Item>
+              <LinkContainer to="/">
+                <Nav.Link>Play</Nav.Link>
+              </LinkContainer>
+            </Nav.Item>
+
+            <Nav.Item>
+              <LinkContainer to="/about">
+                <Nav.Link>About</Nav.Link>
+              </LinkContainer>
+            </Nav.Item>
+        </Nav>
 
       </Navbar>
     );
