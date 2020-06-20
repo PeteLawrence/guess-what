@@ -81,13 +81,15 @@ class ConditionSet extends React.Component {
       <>
         <h1>{ this.props.conditionSet.name }</h1>
         { this.props.showMyCard ?
-          <Card>
-            <Card.Body>
-              <Card.Title>{ this.myCondition.name }</Card.Title>
+          <div className="d-flex justify-content-center">
+            <Card>
+              <Card.Body>
+                <Card.Title>{ this.myCondition.name }</Card.Title>
 
-              { this.renderMarkersList(this.myCondition.markers ) }
-            </Card.Body>
-          </Card>
+                { this.renderMarkersList(this.myCondition.markers ) }
+              </Card.Body>
+            </Card>
+          </div>
           : ''
         }
 
