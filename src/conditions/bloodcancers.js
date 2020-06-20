@@ -2,7 +2,7 @@ export default {
   name: 'Haematological Malignancies',
   conditions: [
     {
-      name: 'CLL',
+      name: 'Chronic Lymphocytic Leukaemia',
       markers: [
         { name: 'CD19' },
         { name: 'CD20', note: 'variable' },
@@ -28,7 +28,7 @@ export default {
       ]
     },
     {
-      name: 'Marginal zone lymphoma',
+      name: 'Marginal Zone Lymphoma',
       markers: [
         { name: 'CD19' },
         { name: 'CD20' },
@@ -43,7 +43,7 @@ export default {
       ]
     },
     {
-      name: 'Mantle cell lymphoma',
+      name: 'Mantle Cell Lymphoma',
       markers: [
         { name: 'CD19' },
         { name: 'CD20', note: 'moderate' },
@@ -56,7 +56,7 @@ export default {
       ]
     },
     {
-      name: 'Follicular lymphoma',
+      name: 'Follicular Lymphoma',
       markers: [
         { name: 'CD19', note: 'often weak' },
         { name: 'CD20', note: 'strong' },
@@ -69,7 +69,7 @@ export default {
       ]
     },
     {
-      name: 'T-LGL',
+      name: 'T-cell Large Granular Lymphocytic Leukaemia',
       markers: [
         { name: 'CD2', color: 'green' },
         { name: 'CD3', color: 'green' },
@@ -80,7 +80,7 @@ export default {
       ]
     },
     {
-      name: 'DLBCL',
+      name: 'Diffused Large B-cell Lymphoma',
       markers: [
         { name: 'CD19' },
         { name: 'CD20' },
@@ -91,7 +91,7 @@ export default {
       ]
     },
     {
-      name: 'B-cell pro-lymphocytic leukaemia',
+      name: 'B-cell Pro-lymphocytic Leukaemia',
       markers: [
         { name: 'CD19' },
         { name: 'CD20' },
@@ -103,7 +103,7 @@ export default {
       ]
     },
     {
-      name: 'T-cell pro-lymphocytic leukaemia',
+      name: 'T-cell Pro-lymphocytic Leukaemia',
       markers: [
         { name: 'CD2', color: 'green' },
         { name: 'CD3', color: 'green' },
@@ -126,7 +126,7 @@ export default {
       ]
     },
     {
-      name: 'Plasma cell leukaemia',
+      name: 'Plasma Cell Leukaemia',
       markers: [
         { name: 'CD38', color: 'orange' },
         { name: 'CD138', color: 'orange' },
@@ -147,7 +147,7 @@ export default {
       ]
     },
     {
-      name: 'Hairy cell leukaemia',
+      name: 'Hairy Cell Leukaemia',
       markers: [
         { name: 'CD19' },
         { name: 'CD20' },
@@ -162,7 +162,7 @@ export default {
       ]
     },
     {
-      name: 'Hairy cell leukaemia variant',
+      name: 'Hairy Cell Leukaemia Variant',
       markers: [
         { name: 'CD19' },
         { name: 'CD20' },
@@ -177,7 +177,7 @@ export default {
       ]
     },
     {
-      name: 'T-ALL',
+      name: 'T-cell Acute Lymphoblastic Leukaemia',
       markers: [
         { name: 'TdT', color: 'hotpink' },
         { name: 'CD34', color: 'hotpink' },
@@ -190,7 +190,7 @@ export default {
       ]
     },
     {
-      name: 'B-ALL',
+      name: 'B-cell Acute Lymphoblastic Leukaemia',
       markers: [
         { name: 'TdT', color: 'hotpink' },
         { name: 'CD34', color: 'hotpink' },
@@ -202,7 +202,7 @@ export default {
       ]
     },
     {
-      name: 'AML - Acute megakaryoblastic leukaemia',
+      name: 'AML - Acute Megakaryoblastic Leukaemia',
       markers: [
         { name: 'CD13', color: 'hotpink' },
         { name: 'CD33', color: 'hotpink' },
@@ -213,7 +213,7 @@ export default {
       ]
     },
     {
-      name: 'AML - Pure erythroid leukaemia',
+      name: 'AML - Pure Erythroid Leukaemia',
       markers: [
         { name: 'CD13', color: 'hotpink' },
         { name: 'CD33', color: 'hotpink' },
@@ -225,7 +225,7 @@ export default {
       ]
     },
     {
-      name: 'AML - Monocytic differentiation',
+      name: 'AML - Monocytic Differentiation',
       markers: [
         { name: 'CD13', color: 'hotpink' },
         { name: 'CD33', color: 'hotpink' },
@@ -242,7 +242,7 @@ export default {
       ]
     },
     {
-      name: 'AML - NOS',
+      name: 'Acute Myeloid Leukaemia - Not otherwise specified',
       markers: [
         { name: 'HLA-DR', color: 'hotpink' },
         { name: 'CD13', color: 'hotpink' },
@@ -253,7 +253,7 @@ export default {
       ]
     },
     {
-      name: 'Acute Promyelocytic leukaemia',
+      name: 'Acute Promyelocytic Leukaemia',
       markers: [
         { name: 'CD13', color: 'hotpink' },
         { name: 'CD33', note: 'strong homogenous', color: 'hotpink' },
@@ -277,7 +277,7 @@ export default {
       ]
     },
     {
-      name: 'Blastic plasmacytoid dendritic cell neopasm',
+      name: 'Blastic Plasmacytoid Dendritic Cell Neopasm',
       markers: [
         { name: 'CD4', color: 'green' },
         { name: 'CD56', color: 'orange' },
@@ -286,7 +286,7 @@ export default {
       ]
     },
     {
-      name: 'Acute T-Cell leukaemia/lymphoma',
+      name: 'Acute T-Cell Leukaemia / Lymphoma',
       markers: [
         { name: 'CD2', color: 'green' },
         { name: 'CD3', color: 'green' },
