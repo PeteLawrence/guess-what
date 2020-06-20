@@ -7,12 +7,6 @@ import Marker from './Marker'
 
 class ConditionSet extends React.Component {
 
-  constructor(props) {
-    super(props);
-
-    this.myCondition = this.pickRandomCondition();
-  }
-
   /**
    * Renders the markup for the conditions
    * @return {[type]} [description]
@@ -51,13 +45,6 @@ class ConditionSet extends React.Component {
   }
 
 
-  pickRandomCondition() {
-    let conditions = this.props.conditionSet.conditions;
-
-    return conditions[Math.floor(Math.random(1) * conditions.length)];
-  }
-
-
   /**
    * Renders the markers for the condition
    * @return {[type]} [description]
@@ -80,13 +67,14 @@ class ConditionSet extends React.Component {
     return (
       <>
         <h1>{ this.props.conditionSet.name }</h1>
+
         { this.props.showMyCard ?
           <div className="d-flex justify-content-center">
             <Card className="my-card">
               <Card.Body>
-                <Card.Title>{ this.myCondition.name }</Card.Title>
+                <Card.Title>{ this.props.myCardCondition.name }</Card.Title>
 
-                { this.renderMarkersList(this.myCondition.markers ) }
+                { this.renderMarkersList(this.props.myCardCondition.markers ) }
               </Card.Body>
             </Card>
           </div>

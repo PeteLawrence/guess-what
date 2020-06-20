@@ -19,6 +19,10 @@ class Condition extends React.Component {
     this.setState({ active: !this.state.active });
   }
 
+  show() {
+    this.setState({ active: true });
+  }
+
   /**
    * Renders the markers for the condition
    * @return {[type]} [description]
