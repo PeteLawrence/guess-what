@@ -249,7 +249,7 @@ export default {
         { name: 'CD33', color: 'hotpink' },
         { name: 'CD34', color: 'hotpink' },
         { name: 'CD117', color: 'hotpink' },
-        { name: 'myeloperoxidase', color: 'hotpink' },
+        { name: 'Myeloperoxidase', color: 'hotpink' },
       ]
     },
     {
