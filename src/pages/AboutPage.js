@@ -17,7 +17,7 @@ class AboutPage extends React.Component {
 
         <p>I therefore tried to develop a revision tool to make the learning process easier and hopefully also more fun. The idea came from Angela Collins, who always explained flow cytometry as being just like a game of Guess Who, you establish the presence or absence of characteristics (CD markers rather than glasses and hats) until you reach the final diagnosis by building up a picture of the disease. With additional help from Joel Cunningham and Dave Bloxham, I created a simple board game.</p>
 
-        <img src="/images/game.jpg" class="rounded mx-auto my-3 d-block" />
+        <img src="/images/game.jpg" class="rounded mx-auto my-3 d-block img-fluid" alt="Modified Guess Who? game" />
 
         <p>And it worked! We managed to learn the flow cytometry markers for the main haematological disorders and were having fun at the same time. It seemed such a good revision tool that I wanted to share it with others, we thought about making more boards but at a time when meeting up for board games or even revision sessions became impossible, due to the Covid-19 pandemic, we had to think of an alternative. Thank you to Pete Lawrence for creating this electronic version for us!</p>
 
