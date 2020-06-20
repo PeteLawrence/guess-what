@@ -25,10 +25,10 @@ class AboutPage extends React.Component {
         <p>It's easy!</p>
 
         <ol>
-          <li>Find a friend</li>
+          <li>Find a friend.</li>
           <li>At the top of the page is the card for your opponent to guess.</li>
-          <li>Take it in turns to ask about the abscence or presence of a marker to narrow down your diagnosis.</li>
-          <li>Click on the cards of the condition you have eliminated until only one card remains.</li>
+          <li>Take it in turns to ask about the absence or presence of a marker to narrow down your diagnosis.</li>
+          <li>Click on the cards of the conditions you have eliminated until only one card remains.</li>
           <li>The final step is to identify the condition on the card you have left. For those less familiar with haematological conditions it is possible to toggle all cards so the conditions are all visible.</li>
           <li>Scroll to the bottom to select new game to shuffle all cards and start again.</li>
         </ol>

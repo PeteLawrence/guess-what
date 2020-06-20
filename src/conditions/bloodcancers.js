@@ -69,7 +69,7 @@ export default {
       ]
     },
     {
-      name: 'T-cell Large Granular Lymphocytic Leukaemia',
+      name: 'T-Cell Large Granular Lymphocytic Leukaemia',
       markers: [
         { name: 'CD2', color: 'green' },
         { name: 'CD3', color: 'green' },
@@ -80,7 +80,7 @@ export default {
       ]
     },
     {
-      name: 'Diffused Large B-cell Lymphoma',
+      name: 'Diffuse Large B-Cell Lymphoma',
       markers: [
         { name: 'CD19' },
         { name: 'CD20' },
@@ -91,7 +91,7 @@ export default {
       ]
     },
     {
-      name: 'B-cell Pro-lymphocytic Leukaemia',
+      name: 'B-Cell Pro-lymphocytic Leukaemia',
       markers: [
         { name: 'CD19' },
         { name: 'CD20' },
@@ -103,7 +103,7 @@ export default {
       ]
     },
     {
-      name: 'T-cell Pro-lymphocytic Leukaemia',
+      name: 'T-Cell Pro-lymphocytic Leukaemia',
       markers: [
         { name: 'CD2', color: 'green' },
         { name: 'CD3', color: 'green' },
@@ -177,7 +177,7 @@ export default {
       ]
     },
     {
-      name: 'T-cell Acute Lymphoblastic Leukaemia',
+      name: 'T-Cell Acute Lymphoblastic Leukaemia',
       markers: [
         { name: 'TdT', color: 'hotpink' },
         { name: 'CD34', color: 'hotpink' },
@@ -190,7 +190,7 @@ export default {
       ]
     },
     {
-      name: 'B-cell Acute Lymphoblastic Leukaemia',
+      name: 'B-Cell Acute Lymphoblastic Leukaemia',
       markers: [
         { name: 'TdT', color: 'hotpink' },
         { name: 'CD34', color: 'hotpink' },
@@ -242,7 +242,7 @@ export default {
       ]
     },
     {
-      name: 'Acute Myeloid Leukaemia - Not otherwise specified',
+      name: 'Acute Myeloid Leukaemia - Not Otherwise Specified',
       markers: [
         { name: 'HLA-DR', color: 'hotpink' },
         { name: 'CD13', color: 'hotpink' },
@@ -277,7 +277,7 @@ export default {
       ]
     },
     {
-      name: 'Blastic Plasmacytoid Dendritic Cell Neopasm',
+      name: 'Blastic Plasmacytoid Dendritic Cell Neoplasm',
       markers: [
         { name: 'CD4', color: 'green' },
         { name: 'CD56', color: 'orange' },
