@@ -36,7 +36,7 @@ class AboutPage extends React.Component {
         <p>Hope you enjoy playing this is much as we do in our department,</p>
 
         <p>
-          Charlotte Hellmich (<a href="https://twitter.com/c_hellmich" target="_blank">@c_hellmich</a>)
+          Charlotte Hellmich (<a href="https://twitter.com/c_hellmich" target="_blank" rel="noopener noreferrer">@c_hellmich</a>)
           <br />
           Haematology Registrar
         </p>

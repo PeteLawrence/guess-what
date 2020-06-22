@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavItem, Nav } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import { LinkContainer } from "react-router-bootstrap";
 
 class Menu extends React.Component {

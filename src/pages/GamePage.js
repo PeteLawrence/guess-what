@@ -41,7 +41,7 @@ class GamePage extends React.Component {
     // Shuffle conditions
     let conditionSetClone = {...this.state.conditionSet}; //clone the condition set
     conditionSetClone.conditions.sort((a, b) => {
-      return (Math.random() > 0.5);
+      return (0.5 - Math.random());
     });
 
     // Pick a random condition
