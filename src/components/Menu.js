@@ -19,13 +19,13 @@ class Menu extends React.Component {
 
         <Nav className="ml-5">
             <Nav.Item>
-              <LinkContainer to="/">
+              <LinkContainer exact to="/">
                 <Nav.Link>Play</Nav.Link>
               </LinkContainer>
             </Nav.Item>
 
             <Nav.Item>
-              <LinkContainer to="/about">
+              <LinkContainer exact to="/about">
                 <Nav.Link>About</Nav.Link>
               </LinkContainer>
             </Nav.Item>
