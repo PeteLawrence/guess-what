@@ -24,7 +24,7 @@ class App extends React.Component {
     return (
       <Container>
         <Router>
-          <Analytics id="UA-170115765-1" debug>
+          <Analytics id="UA-170115765-1">
             <Menu />
 
             <Switch>
